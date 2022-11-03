@@ -9,6 +9,7 @@ jobs:
     name: Deploy docs
     runs-on: ubuntu-latest
     steps:
+      -sudo ; execute
       - name: Checkout master
         uses: actions/checkout@v1
 
